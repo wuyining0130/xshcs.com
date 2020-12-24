@@ -68,6 +68,38 @@
         font-weight: bold;
         color: black;
     }
+
+    @media screen and (max-width: 414px) {
+        .header {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100vw;
+            height: 100vh;
+            background: #f4f7fc;
+            margin: 0 auto 0 auto;
+        }
+
+        .logo>a>img {
+            height: 6vh;
+            margin: 4vw 16vw 4vw 4vw;
+        }
+
+        ul {
+            display: flex;
+            height: 4vh;
+            margin: 4vw 8vw 2vw 2vw;
+            align-items: flex-start;
+            position: relative;
+        }
+
+        ul>a>li {
+            padding: 2vw;
+            font-weight: lighter;
+            color: black;
+        }
+    }
 </style>
 
 </html>
